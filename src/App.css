@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: lightgreen;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  color: lightgreen;
+}
+/* Background Image  */
+body {
+  background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2lzMTY1MzktaW1hZ2Uta3d2eWdwODEuanBn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Individual Squares */
+.square {
+  border: 2px solid black;
+  height: 150px;
+  width: 150px;
+  font-size: 100px;
+  text-align: center;
+}
+/* Tic Tac Toe Board */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+}
